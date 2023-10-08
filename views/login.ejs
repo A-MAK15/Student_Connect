@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student-Connect : Login</title>
+
+  <!-- favicon -->
+  <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/login.css">
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/39acc06808.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700;800;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+  <!-- bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="login_Section">
+
+    <div class="top-level">
+      <p class="sign_in">Sign In </p>
+      <p class="vertical-line">|</p>
+      <p class="create"><a class="create" href="/create-account">Create Account</a></p>
+    </div>
+
+    <div class="middle-level">
+      <h1 class="create-heading">Login</h1>
+      <p class="create-subheading">Welcome to Student Connect</p>
+    </div>
+    <form action="/login" method="post">
+
+      <div class="inputs">
+
+        <input type="text" name="userName" placeholder="Email Address"> <br><br>
+
+        <input type="password" name="password" placeholder="Enter Password"> <br><br>
+
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="btn btn-light" name="login">Login</button><br>
+      </div>
+
+    </form>
+
+
+    <div class="footer">
+      <p class="copyright">Copyright A-MAK_TECHNOLOGIES</p>
+    </div>
+
+  </div>
+
+  <div class="images_section">
+    <img class="People-img" src="Resources/Image_One.png" alt="Cannot find img"> <br>
+  </div>
+
+  <div class="text-img">
+    <h1 class="img-text">Get to know people through us</h1>
+    <h1 class="img-text-title">Student Connect</h1>
+    <p class="img-text2">We connect various students within the same university</p>
+    <p class="img-text3">Start connecting</p>
+    <p class="img-text4">"Our main goal is to connect as many students from the same university as much as possible" - A_MAK</p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="login.js" charset="utf-8"></script>
+</body>
+
+</html>

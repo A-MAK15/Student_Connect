@@ -1,0 +1,150 @@
+html{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+}
+
+/* analytics */
+
+.analytics{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+.analytics:hover{
+  opacity: 0.5;
+}
+
+.text-analytics{
+  position: absolute;
+  left: 150px;
+  top: 68px;
+}
+
+.img-analytics{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 108px;
+}
+
+/* connections */
+
+.connections{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  margin-left: 355px;
+  position: absolute;
+  top: 108px;
+}
+
+.connections:hover{
+  opacity: 0.5;
+}
+
+.text-connections{
+  position: absolute;
+  left: 435px;
+  top: 68px;
+}
+
+.img-connections{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 1px;
+}
+
+/* reports */
+
+.reports{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  margin-left: 658px;
+  position: absolute;
+  top: 108px;
+}
+
+.reports:hover{
+  opacity: 0.5;
+}
+
+.text-reports{
+  position: absolute;
+  left: 760px;
+  top: 68px;
+}
+
+.img-reports{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 1px;
+}
+
+/* general */
+
+.general{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  margin-left: 965px;
+  position: absolute;
+  top: 108px;
+}
+
+.img-general:hover{
+  opacity: 0.5;
+}
+
+.text-general{
+  position: absolute;
+  left: 1070px;
+  top: 68px;
+}
+
+.img-general{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 1px;
+}
+
+/* headings */
+h1, h3{
+  color: #fff;
+}
+
+.reportsAction{
+  background-color: black;
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 500px;
+  top: 440px;
+}
+
+.reportsAction:hover{
+  opacity: 0.5;
+}
+
+.reportsText{
+  position: absolute;
+  left: 573px;
+  top: 397px;
+}
+
+.img-ban{
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+}

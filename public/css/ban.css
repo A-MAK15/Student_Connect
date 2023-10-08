@@ -1,0 +1,30 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+}
+
+input, textarea{
+  background-color: transparent;
+}
+
+.banUserTitle, label, input, textarea{
+  color: #fff;
+}
+
+.banSection{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.banbtn{
+  width: 100px;
+}
+
+.inputBan{
+  width: 250px;
+}
+
+.alert{
+  width: 50%;
+  visibility: hidden;
+}

@@ -1,0 +1,171 @@
+/* Create Account Styles */
+html{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+  display: flex;
+}
+
+.create_account{
+  background-color: #1e282f;
+  width: 35%;
+  height: 520px;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+}
+
+.create-heading{
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  font-size: 160%;
+  font-size: 200%;
+}
+
+.login-text{
+  text-decoration: none;
+}
+
+.top-level{
+  margin: auto auto 50px 220px;
+}
+
+.inputs{
+  margin-top: 80px;
+}
+
+.sign_in{
+  position: absolute;
+  left: 100px;
+}
+
+.login_link:hover{
+  color: grey;
+}
+
+.create{
+  color: grey;
+}
+
+
+.sign_in{
+  position: absolute;
+  top: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.vertical-line{
+  color: grey;
+  position: relative;
+  right: 22px;
+  bottom: 5px;
+  font-size: 120%;
+}
+
+.login_link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttons{
+  position: absolute;
+  left: 80px;
+  width: 60%;
+  top: 390px;
+}
+
+.People-img{
+  width: 500px;
+  height: 520px;
+  position: absolute;
+  left: 643px;
+  top: 40px;
+  opacity: 0.5;
+}
+
+.btn{
+  margin-left: 30px;
+  width: 200px;
+}
+
+.btn-dark{
+  margin-top: 10px;
+}
+
+.copyright{
+  color: grey;
+}
+
+.images-text_One{
+  font-family: "Ubuntu";
+  color: #fff;
+  position: absolute;
+  bottom: 280px;
+  left: 54%;
+  font-size: 2rem;
+  visibility: hidden;
+}
+
+.images-text_Two{
+  font-family: "Montserrat";
+  color: #fff;
+  position: absolute;
+  bottom: 250px;
+  left: 60%;
+  font-size: 100%;
+}
+
+.images-text_Three{
+  /* font-family: "Ubuntu"; */
+  color: #fff;
+  position: absolute;
+  bottom: 310px;
+  left: 63%;
+  font-size: 2rem;
+}
+
+.footer{
+  position: relative;
+  left: 320px;
+  top: 150px;
+}
+
+p, h1, label {
+  color: #fff;
+  display: inline-block;
+}
+
+input {
+  background-color: #1e282f;
+  color: #fff;
+  width: 60%;
+  position: absolute;
+  left: 80px;
+}
+
+.SuccessCreatedAccount{
+  background-color: green;
+  height: 50px;
+  position: absolute;
+  top: 85px;
+  left: 80px;
+  opacity: 0.4;
+  border-radius: 2px;
+  border:  solid;
+  width: 65%;
+  visibility: hidden;
+}
+
+.FaliureCreateAccount{
+  background-color: red;
+  height: 50px;
+  position: absolute;
+  top: 85px;
+  left: 80px;
+  opacity: 0.4;
+  border-radius: 2px;
+  border:  solid;
+  width: 65%;
+  visibility: hidden;
+}

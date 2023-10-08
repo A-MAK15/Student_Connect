@@ -1,0 +1,32 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  font-weight: 900;
+}
+
+tr:nth-child(even) {
+  background-color: #50577A;
+}
+
+.ReportTitle{
+  color: #fff;
+}
+
+th, td, h5{
+  color: #fff;
+}

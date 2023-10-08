@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admin : Report Data</title>
+    <link rel="stylesheet" href="css/reportsData.css">
+
+    <!-- favicon -->
+    <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+  </head>
+  <body>
+    <h1 class="ReportTitle">Reports</h1>
+    <%console.log(foundReports);%>
+    <%foundReports.forEach(function(report){%>
+      <table>
+        <tr>
+          <col width ="300">
+          <col width ="300">
+          <th>Reporter</th>
+          <th>Reported User</th>
+          <th>Report</th>
+        </tr>
+
+        <tr>
+          <td><%=report.reportUserName%></td>
+          <td><%=report.reportedUser%></td>
+          <td><h5><%=report.reasonReport%></h5></td>
+        </tr>
+
+      </table>
+    <%});%>
+  </body>
+</html>

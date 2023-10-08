@@ -1,0 +1,96 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+}
+
+h1{
+  color: #fff;
+}
+
+/* friendshipCategory */
+
+.friendshipConnection{
+  background-color: #001253;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+.friendshipConnection-txt{
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* relationshipsCategory */
+
+.relationshipConnection{
+  background-color: #3E6D9C;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 480px;
+  top: 107px;
+}
+
+.relationshipConnection-txt{
+  text-align: center;
+}
+
+/* business market category */
+
+.businessMarketConnection{
+  background-color: #001253;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 880px;
+  top: 107px;
+}
+
+.businessMarketConnection-txt{
+  text-align: center;
+}
+
+/* Invitation */
+
+.invitationConnection{
+  background-color: #3E6D9C;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 275px;
+  top: 450px;
+}
+
+.invitationConnection-txt{
+  text-align: center;
+}
+
+/* randomChat */
+
+.randomChatConnection{
+  background-color: #3E6D9C;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 675px;
+  top: 450px;
+}
+
+.randomChatConnection-txt{
+  text-align: center;
+}
+
+/* analyticNumbers */
+
+.Num{
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+}

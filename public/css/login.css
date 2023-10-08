@@ -1,0 +1,154 @@
+/* Create Account Styles */
+html{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+  display: flex;
+}
+
+.login_Section{
+  background-color: #1e282f;
+  width: 35%;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+}
+
+.create-heading{
+  /* font-family: "Ubuntu", "Bold 700"; */
+  position: absolute;
+  top: 35px;
+  left: 150px;
+  font-size: 250%;
+}
+
+.create-subheading{
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+
+.vertical-line{
+  color: grey;
+  position: relative;
+  right: 22px;
+  bottom: 5px;
+  font-size: 120%;
+}
+
+.top-level{
+  margin: auto auto 50px 220px;
+}
+
+.inputs{
+  margin-top: 100px;
+}
+
+.sign_in{
+  color: grey;
+  position: absolute;
+  left: 100px;
+  top: 3px;
+}
+
+.buttons{
+  position: absolute;
+  left: 80px;
+  width: 60%;
+}
+
+.People-img{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 643px;
+  top: 40px;
+  opacity: 0.5;
+}
+
+.btn{
+  margin-left: 30px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.btn-dark{
+  margin-top: 10px;
+}
+
+.copyright{
+  color: grey;
+}
+
+.footer{
+  height: 500px;
+  position: relative;
+  left: 320px;
+  top: 270px;
+}
+
+.create:hover{
+  color: grey;
+}
+
+.img-text{
+  color: #fff;
+  position: absolute;
+  bottom: 360px;
+  left: 55%;
+  font-size: 185%;
+}
+
+.img-text2{
+  color: #fff;
+  position: absolute;
+  bottom: 330px;
+  left: 55%;
+  font-size: 100%;
+}
+
+.img-text3 {
+  color: #fff;
+  position: absolute;
+  bottom: 310px;
+  left: 55%;
+  font-size: 100%;
+}
+
+.img-text4 {
+  font-family: "Montserrat", "Thin 100";
+  color: #fff;
+  position: absolute;
+  bottom: 200px;
+  left: 58%;
+  font-size: 1.5rem;
+  width: 30%;
+  visibility: hidden;
+}
+
+.img-text-title{
+  font-family: "Ubuntu";
+  color: #fff;
+  position: absolute;
+  bottom: 490px;
+  left: 61%;
+  font-size: 185%;
+}
+
+.create{
+  color: #fff;
+  text-decoration: none;
+}
+
+p, h1, label {
+  color: #fff;
+  display: inline-block;
+}
+
+input {
+  background-color: #1e282f;
+  color: #fff;
+  width: 60%;
+  position: absolute;
+  left: 80px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Categories : Friendships</title>
+
+  <link rel="stylesheet" href="css/friendship.css">
+
+  <style media="screen">
+    #testimonials {
+      background-image: url("Resources/Image_Rejection.jpg");
+      color: #fff;
+      height: 450px;
+      width: 100%;
+      position: absolute;
+      top: 1680px;
+    }
+  </style>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/39acc06808.js"></script>
+
+  <!-- favicon -->
+  <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;700;800;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="upperSection">
+    <div class="friendshipUpperSection">
+      <img class="background-img" src="Resources/Image_One_Friendship.png" alt="img-not-found">
+      <i class="fa fa-comments stc" aria-hidden="true">student connect</i>
+      <h1 class="friendshipHeading"> Friendships</h1>
+    </div>
+
+    <div class="friendshipIntro">
+      <h1 class="friendshipIntro-txt">Start friendships online with strangers within your university</h1>
+      <!-- <h3 class="FriendshipQoute">“A good friend is like a four-leaf clover: hard to find and lucky to have.”- Irish Proverb</h3> -->
+    </div>
+
+    <div class="friendshipSlide">
+      <h1 class="friendshipTips">Tips on how to create meaningful friendships online</h1>
+      <div id="friendshipSlideTips" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>1.Be yourself, let people fall inlove with your personality</p>
+          </div>
+          <div class="carousel-item">
+            <p>2. Start conversations that may lead to meeting up</p>
+          </div>
+          <div class="carousel-item">
+            <p>3.Do not force it, just let the conversation flow</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="connections">
+
+    <form action="/friendship" method="post">
+
+      <div class="connectSection">
+        <h1 class="startConnection">Start your connection</h1>
+
+        <div class="connectionButtons">
+          <button class="btn btn-primary btn-lg connect" type="submit" name="friendshipConnectbtn" value="friendship">Connect</button>
+          <button class="btn btn-dark btn-lg disconnect" type="submit" name="friendshipDisConnectbtn" value="Disfriendship">Disconnect</button>
+          <button class="btn btn-danger btn-lg report" type="submit" name="reportbtn" value="reportFriendships">Report</button>
+        </div>
+
+        <div class="User1">
+          <video id="video" height="492" autoplay> </video>
+        </div>
+
+        <div class="User2">
+          <video id="videoTwo" height="492" autoplay> </video>
+        </div>
+
+
+      </div>
+
+    </form>
+
+  </section>
+
+  <section id="rejection">
+    <div class="rejectionSection">
+      <h1 class="rejection-txt">Incase things dont go according to plan, we still got you covered!</h1>
+      <div class="rejectionSmalltxt">
+        <p>“Character cannot be developed in ease and quiet. Only through experiences of trial and suffering can the soul be strengthened, vision cleared, ambition inspired and success achieved.”</p>
+      </div>
+      <img class="imgRejection" src="Resources/Tips.jpg" alt="img-not-found">
+    </div>
+
+    <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
+      <h1 class="rejection-heading">Tips on how to deal with friendship rejection</h1>
+      <div class="container carousel-inner">
+        <div class="carousel-item active">
+          <h1 class="carousel-txt">1.Be positive</h1>
+        </div>
+
+        <div class="carousel-item">
+          <h1 class="carousel-txt-two">2.Reflect and rectify</h1>
+        </div>
+
+        <div class="carousel-item">
+          <h1 class="carousel-txt-three">3.Pick out the learning points from the encounter</h1>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonials" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="module" src="friendship.js" charset="utf-8"></script>
+  <script type="module" src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

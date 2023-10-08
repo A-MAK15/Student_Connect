@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admin : Analytics</title>
+    <link rel="stylesheet" href="css/analytics.css">
+
+    <!-- favicon -->
+    <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+
+  </head>
+  <body>
+    <h1>Category Analytics</h1>
+
+    <div class="friendshipConnection">
+      <h1 class="friendshipConnection-txt">friendship</h1>
+      <%foundDoc.forEach(function(doc){%>
+      <h3 class="Num"><%=doc.friendship%></h3>
+      <%});%>
+    </div>
+
+    <div class="relationshipConnection">
+      <h1 class="relationshipConnection-txt">Romantic Relationship</h1>
+      <%foundDoc.forEach(function(doc){%>
+      <h3 class="Num"><%=doc.relationship%></h3>
+      <%});%>
+    </div>
+
+    <div class="businessMarketConnection">
+      <h1 class="businessMarketConnection-txt">Business Market</h1>
+      <%foundDoc.forEach(function(doc){%>
+      <h3 class="Num"><%=doc.business%></h3>
+      <%});%>
+    </div>
+
+    <div class="invitationConnection">
+      <h1 class="invitationConnection-txt">Invitation</h1>
+      <%foundDoc.forEach(function(doc){%>
+      <h3 class="Num"><%=doc.invitation%></h3>
+      <%});%>
+    </div>
+
+    <div class="randomChatConnection">
+      <h1 class="randomChatConnection-txt">Random Chat</h1>
+      <%foundDoc.forEach(function(doc){%>
+      <h3 class="Num"><%=doc.random%></h3>
+      <%});%>
+    </div>
+
+  </body>
+</html>

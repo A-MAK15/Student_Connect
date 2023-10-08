@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin : Ban</title>
+  <link rel="stylesheet" href="css/ban.css">
+
+  <!-- favicon -->
+  <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <form action="/ban" method="post">
+    <div class="banSection">
+      <h2 class="banUserTitle">Ban User</h2>
+
+      <label>Username</label> <br>
+      <input class="inputBan" type="text" name="userToBan"> <br> <br>
+
+      <label>Reason</label> <br>
+      <textarea name="reasonBan" rows="8" cols="80"></textarea> <br> <br>
+
+      <button class="btn btn-light banbtn" type="submit" name="banbtn" value="submitBan">Ban</button>
+    </div>
+
+    <div class="alert alert-success alertsuccess" role="alert">
+      <p>An alert for success message</p>
+    </div>
+  </form>
+
+</body>
+
+</html>

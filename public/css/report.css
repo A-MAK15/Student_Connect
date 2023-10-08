@@ -1,0 +1,29 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(29,57,165,0.7572071064754027) 61%);
+  display: flex;
+}
+
+.reportTxt{
+  color: #fff;
+}
+
+.reportUsername, .reportPerpetrator, .reportReason{
+  color: #fff;
+}
+
+input{
+  background-color: transparent;
+  color: #fff;
+  width: 250px;
+}
+
+textarea{
+  background-color: transparent;
+  color: #fff;
+}
+
+.reportSection{
+  position: relative;
+  left: 20px;
+}

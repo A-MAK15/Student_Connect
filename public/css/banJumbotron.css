@@ -1,0 +1,86 @@
+body{
+background-color: #D6e4e5;
+}
+
+
+.jum{
+  border-radius: 15px;
+  background-color: #B3FFAE;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.failJum{
+  border-radius: 15px;
+  background-color: red;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.backbtn{
+  width: 100px;
+}
+
+.existJum{
+  border-radius: 15px;
+  color: black;
+  background-color: #EED202;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.successJum{
+  border-radius: 15px;
+  color: black;
+  background-color: #B3FFAE;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.passwordJum{
+  border-radius: 15px;
+  color: black;
+  background-color: #EED202;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.loginpasswordJum{
+  border-radius: 15px;
+  color: black;
+  background-color: red;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.reportSuccessJum{
+  border-radius: 15px;
+  color: black;
+  background-color: #B3FFAE;
+  width: 60%;
+  height: 250px;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.existJum{
+  border-radius: 15px;
+  color: black;
+  background-color: #EED202;
+  width: 60%;
+  height: 185px;
+  margin-left: 260px;
+  margin-top: 20px;
+}

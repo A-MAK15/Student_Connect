@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Categories : Business Market</title>
+
+  <link rel="stylesheet" href="css/businessMarket.css">
+
+  <!-- favicon -->
+  <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <style media="screen">
+    #testimonials {
+      background-image: url("Resources/Image_Rejection.jpg");
+      color: #fff;
+      height: 450px;
+      width: 100%;
+      position: absolute;
+      top: 1680px;
+    }
+  </style>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/39acc06808.js"></script>
+
+  <!-- bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;700;800;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="upperSection">
+    <div class="categoryUpperSection">
+      <img class="background-img" src="Resources/Image_Four.png" alt="img-not-found">
+      <i class="fa fa-comments stc" aria-hidden="true">student connect</i>
+      <h1 class="CategoryHeading"> Business Market </h1>
+    </div>
+
+    <div class="categoryIntro">
+      <h1 class="categoryIntro-txt">Find people to sell your products to or buy products from them</h1>
+      <!-- <h3 class="FriendshipQoute">“A good friend is like a four-leaf clover: hard to find and lucky to have.”- Irish Proverb</h3> -->
+    </div>
+
+    <div class="categorySlide">
+      <h1 class="categoryTips">Tips on how sell products online</h1>
+      <div id="categorySlideTips" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner tips">
+          <div class="carousel-item active">
+            <p>1.Keep the pitch small and interesting.</p>
+          </div>
+          <div class="carousel-item">
+            <p>2.Solve their problems that they did not know that they had.</p>
+          </div>
+          <div class="carousel-item">
+            <p>3.Dont force things if they are not interested.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="connections">
+    <form action="/businessMarket" method="post">
+      <div class="connectSection">
+        <h1 class="startConnection">Start your connection</h1>
+
+        <div class="connectionButtons">
+          <button class="btn btn-primary btn-lg connect" type="submit" name="businessMarketConnectbtn" value="businessMarket">Connect</button>
+          <button class="btn btn-dark btn-lg disconnect" type="submit" name="businessMarketDisConnectbtn" value="DisbusinessMarket">Disconnect</button>
+          <button class="btn btn-danger btn-lg report" type="submit" name="reportbtn" value="reportbusinessMarket">Report</button>
+        </div>
+
+
+        <div class="User1">
+          <video id="video" height="492" autoplay> </video>
+        </div>
+
+        <div class="User2">
+          <video id="videoTwo" height="492" autoplay> </video>
+        </div>
+
+      </div>
+
+    </form>
+
+  </section>
+
+  <section id="rejection">
+    <div class="rejectionSection">
+      <h1 class="rejection-txt">Incase things dont go according to plan, we still got you covered!</h1>
+      <h3 class="tipsTestimonial">After dealing with multiple rejections, I implemented the tips I got from this platform to increase the sales of my product. ~ John Doe </h3>
+      <div class="rejectionSmalltxt">
+        <p>“Character cannot be developed in ease and quiet. Only through experiences of trial and suffering can the soul be strengthened, vision cleared, ambition inspired and success achieved.”</p>
+      </div>
+      <!-- <img class="imgRejection" src="Resources/failed_love.jpg" alt="img-not-found"> -->
+    </div>
+
+    <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
+      <h1 class="rejection-heading">Tips on how to deal with lead rejection</h1>
+      <div class="container carousel-inner">
+        <div class="carousel-item active">
+          <h1 class="carousel-txt">1.Rejections are part of the journey</h1>
+        </div>
+
+        <div class="carousel-item">
+          <h1 class="carousel-txt-two">2.Reflect on your approach to customers</h1>
+        </div>
+
+        <div class="carousel-item">
+          <h1 class="carousel-txt-three">3.Try to resonate more with your customer</h1>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonials" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="relationship.js" charset="utf-8"></script>
+</body>
+
+</html>

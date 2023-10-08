@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin : Connections</title>
+  <link rel="stylesheet" href="css/connectionsData.css">
+
+  <!-- favicon -->
+  <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+</head>
+
+<body>
+  <h1 class="connectionTitle">Connections</h1>
+
+  <%foundConnections.forEach(function(connections){%>
+    <table>
+      <tr>
+        <th>Paried User One</th>
+        <th>Paried User Two</th>
+        <th>Connection Date</th>
+      </tr>
+
+      <tr>
+        <td><%=connections.onlineUser%></td>
+        <td><%=connections.randomPairedUser%></td>
+        <td><h5><%=connections.connectionDate%></h5></td>
+      </tr>
+
+    </table>
+  <%});%>
+
+</body>
+
+</html>

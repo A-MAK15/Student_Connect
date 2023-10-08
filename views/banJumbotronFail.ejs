@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin : Ban</title>
+  <link rel="stylesheet" href="css/banJumbotron.css">
+
+  <!-- favicon -->
+  <link href="Resources/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <form action="/banJumbotronFail" method="post">
+    <div class="failJum">
+      <div class="jumbotron jumbotron-fluid clearfix">
+        <div class="container">
+          <h1 class="display-4">Failed to ban user</h1>
+          <p class="lead">Check if the correct credentials are entered and if there are no empty fields</p>
+          <button class="backbtn btn btn-light" name="button" type="submit">Back</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+</body>
+
+</html>
